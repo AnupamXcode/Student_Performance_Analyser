@@ -1,44 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=to-shrink" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Performance Statistical Analysis System</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.55.0/build/stlite.css" />
-    <style>
-        body { margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
-        #root { height: 100vh; }
-    </style>
-</head>
-<body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased selection:bg-brand-500 selection:text-white">
     <div id="root"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.55.0/build/stlite.js"></script>
-    <script>
-        stlite.mount({
-            requirements: [
-                "pandas",
-                "numpy",
-                "scipy",
-                "matplotlib",
-                "seaborn",
-                "requests",
-                "beautifulsoup4"
-            ],
-            entrypoint: "app.py",
-            files: {
-                "app.py": { url: "./app.py" },
-                "src/__init__.py": { url: "./src/__init__.py" },
-                "src/preprocessing.py": { url: "./src/preprocessing.py" },
-                "src/statistics.py": { url: "./src/statistics.py" },
-                "src/distributions.py": { url: "./src/distributions.py" },
-                "src/sampling.py": { url: "./src/sampling.py" },
-                "src/clt.py": { url: "./src/clt.py" },
-                "src/bootstrap.py": { url: "./src/bootstrap.py" },
-                "src/scraping.py": { url: "./src/scraping.py" },
-                "data/student_performance.csv": { url: "./data/student_performance.csv" }
-            }
-        }, document.getElementById("root"));
-    </script>
-</body>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
