@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { generateDefaultDataset } from './services/dataService';
 
 // Pages
@@ -81,7 +82,9 @@ export default function App() {
         />
 
         <main className="flex-1 px-4 sm:px-8 pb-12 max-w-7xl w-full mx-auto">
-          {renderPage()}
+          <ErrorBoundary key={activePage}>
+            {renderPage()}
+          </ErrorBoundary>
         </main>
       </div>
     </div>

@@ -16,7 +16,9 @@ export const CLTConvergencePlot = ({ sampleMeans, sampleSize, popMean }) => {
 
   sampleMeans.forEach(val => {
     const idx = Math.min(Math.floor((val - min) / binWidth), binCount - 1);
-    bins[idx].count++;
+    if (bins[idx]) {
+      bins[idx].count++;
+    }
   });
 
   const colors = {
@@ -25,6 +27,8 @@ export const CLTConvergencePlot = ({ sampleMeans, sampleSize, popMean }) => {
     50: '#3b82f6',
     100: '#10b981'
   };
+
+  const midBinLabel = bins[Math.floor(binCount / 2)]?.binLabel;
 
   return (
     <div className="w-full h-52 glass-card p-3">
@@ -39,7 +43,9 @@ export const CLTConvergencePlot = ({ sampleMeans, sampleSize, popMean }) => {
           <YAxis stroke="#94a3b8" fontSize={9} tickLine={false} />
           <Tooltip contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', borderRadius: '6px', fontSize: '11px', color: '#fff' }} />
           <Bar dataKey="count" fill={colors[sampleSize] || '#8b5cf6'} radius={[2, 2, 0, 0]} />
-          {popMean && <ReferenceLine x={bins[Math.floor(binCount / 2)]?.binLabel} stroke="#ffffff" strokeWidth={1.5} strokeDasharray="2 2" />}
+          {popMean !== undefined && popMean !== null && midBinLabel && (
+            <ReferenceLine x={midBinLabel} stroke="#ffffff" strokeWidth={1.5} strokeDasharray="2 2" />
+          )}
         </BarChart>
       </ResponsiveContainer>
     </div>

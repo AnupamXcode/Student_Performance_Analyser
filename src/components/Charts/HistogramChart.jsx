@@ -21,8 +21,24 @@ export const HistogramChart = ({ dataset, keyName = 'Marks', meanVal, medianVal 
 
   values.forEach(val => {
     const idx = Math.min(Math.floor((val - min) / binWidth), binCount - 1);
-    bins[idx].count++;
+    if (bins[idx]) {
+      bins[idx].count++;
+    }
   });
+
+  const meanBin = meanVal !== undefined && meanVal !== null
+    ? bins.find(b => {
+        const parts = b.binLabel.split('-').map(Number);
+        return meanVal >= parts[0] && meanVal <= parts[1];
+      })?.binLabel
+    : null;
+
+  const medianBin = medianVal !== undefined && medianVal !== null
+    ? bins.find(b => {
+        const parts = b.binLabel.split('-').map(Number);
+        return medianVal >= parts[0] && medianVal <= parts[1];
+      })?.binLabel
+    : null;
 
   return (
     <div className="w-full h-72">
@@ -36,11 +52,11 @@ export const HistogramChart = ({ dataset, keyName = 'Marks', meanVal, medianVal 
             formatter={(val) => [`${val} Students`, 'Frequency']}
           />
           <Bar dataKey="count" fill="#3b82f6" radius={[4, 4, 0, 0]} name="Frequency" />
-          {meanVal && (
-            <ReferenceLine x={bins.find(b => meanVal >= parseFloat(b.binLabel.split('-')[0]) && meanVal <= parseFloat(b.binLabel.split('-')[1]))?.binLabel} stroke="#ef4444" strokeWidth={2} label={{ value: `Mean: ${meanVal}`, fill: '#ef4444', fontSize: 12, position: 'top' }} />
+          {meanBin && (
+            <ReferenceLine x={meanBin} stroke="#ef4444" strokeWidth={2} label={{ value: `Mean: ${meanVal}`, fill: '#ef4444', fontSize: 12, position: 'top' }} />
           )}
-          {medianVal && (
-            <ReferenceLine x={bins.find(b => medianVal >= parseFloat(b.binLabel.split('-')[0]) && medianVal <= parseFloat(b.binLabel.split('-')[1]))?.binLabel} stroke="#10b981" strokeWidth={2} strokeDasharray="4 4" label={{ value: `Median: ${medianVal}`, fill: '#10b981', fontSize: 12, position: 'bottom' }} />
+          {medianBin && (
+            <ReferenceLine x={medianBin} stroke="#10b981" strokeWidth={2} strokeDasharray="4 4" label={{ value: `Median: ${medianVal}`, fill: '#10b981', fontSize: 12, position: 'bottom' }} />
           )}
         </BarChart>
       </ResponsiveContainer>
