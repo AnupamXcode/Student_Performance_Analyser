@@ -1,0 +1,202 @@
+Student_ID,Gender,Department,Attendance,Study_Hours,Marks
+S1001,Male,Computer Science,85.5,6.5,78.0
+S1002,Female,Data Science,92.0,8.0,88.5
+S1003,Male,Electrical,76.0,4.5,62.0
+S1004,Female,Mechanical,64.5,3.0,55.0
+S1005,Male,Data Science,88.0,7.5,84.0
+S1006,Female,Computer Science,95.0,9.0,94.5
+S1007,Male,Mechanical,58.0,2.5,48.0
+S1008,Female,Electrical,82.0,5.5,72.5
+S1009,Male,Computer Science,90.5,7.0,86.0
+S1010,Female,Data Science,78.5,5.0,68.0
+S1011,Male,Electrical,69.0,3.5,59.5
+S1012,Female,Mechanical,84.0,6.0,75.0
+S1013,Male,Computer Science,91.0,8.5,90.0
+S1014,Female,Data Science,87.5,7.0,82.5
+S1015,Male,Electrical,62.0,3.0,51.0
+S1016,Female,Mechanical,79.0,5.5,70.0
+S1017,Male,Computer Science,88.5,6.5,81.5
+S1018,Female,Data Science,96.0,9.5,97.0
+S1019,Male,Electrical,74.0,4.0,64.0
+S1020,Female,Mechanical,66.0,3.5,57.5
+S1021,Male,Data Science,89.0,7.5,85.5
+S1022,Female,Computer Science,93.5,8.5,91.0
+S1023,Male,Mechanical,55.0,2.0,45.0
+S1024,Female,Electrical,80.5,5.0,71.0
+S1025,Male,Computer Science,86.0,6.0,77.5
+S1026,Female,Data Science,91.5,7.5,87.0
+S1027,Male,Electrical,71.0,4.0,60.5
+S1028,Female,Mechanical,83.0,6.0,74.0
+S1029,Male,Computer Science,94.0,9.0,93.0
+S1030,Female,Data Science,77.0,4.5,66.5
+S1031,Male,Electrical,65.0,3.0,53.0
+S1032,Female,Mechanical,81.0,5.5,73.0
+S1033,Male,Computer Science,89.5,7.0,83.5
+S1034,Female,Data Science,95.5,9.0,95.0
+S1035,Male,Electrical,73.0,4.5,65.0
+S1036,Female,Mechanical,68.0,3.5,59.0
+S1037,Male,Data Science,86.5,6.5,80.0
+S1038,Female,Computer Science,92.5,8.0,89.5
+S1039,Male,Mechanical,59.0,2.5,49.5
+S1040,Female,Electrical,83.5,5.5,74.5
+S1041,Male,Computer Science,87.0,6.5,79.0
+S1042,Female,Data Science,94.5,8.5,92.5
+S1043,Male,Electrical,75.0,4.5,63.5
+S1044,Female,Mechanical,63.0,2.5,52.0
+S1045,Male,Data Science,90.0,8.0,87.5
+S1046,Female,Computer Science,97.0,9.5,98.0
+S1047,Male,Mechanical,61.0,3.0,50.0
+S1048,Female,Electrical,81.5,5.0,72.0
+S1049,Male,Computer Science,88.0,7.0,82.0
+S1050,Female,Data Science,79.0,5.0,69.5
+S1051,Male,Electrical,67.0,3.5,56.0
+S1052,Female,Mechanical,85.0,6.5,76.5
+S1053,Male,Computer Science,92.0,8.5,89.0
+S1054,Female,Data Science,86.0,6.5,81.0
+S1055,Male,Electrical,60.0,2.5,47.0
+S1056,Female,Mechanical,78.0,5.0,69.0
+S1057,Male,Computer Science,89.0,7.0,84.5
+S1058,Female,Data Science,97.5,10.0,99.0
+S1059,Male,Electrical,72.0,4.0,61.5
+S1060,Female,Mechanical,67.5,3.5,58.0
+S1061,Male,Data Science,88.0,7.0,83.0
+S1062,Female,Computer Science,94.0,8.5,91.5
+S1063,Male,Mechanical,56.0,2.0,46.0
+S1064,Female,Electrical,82.5,5.5,73.5
+S1065,Male,Computer Science,85.0,6.0,76.0
+S1066,Female,Data Science,90.5,7.5,86.5
+S1067,Male,Electrical,70.0,3.5,58.5
+S1068,Female,Mechanical,82.0,6.0,73.5
+S1069,Male,Computer Science,93.0,8.5,92.0
+S1070,Female,Data Science,76.5,4.5,65.5
+S1071,Male,Electrical,64.0,3.0,52.5
+S1072,Female,Mechanical,80.0,5.0,71.5
+S1073,Male,Computer Science,91.0,7.5,86.5
+S1074,Female,Data Science,93.0,8.0,90.5
+S1075,Male,Electrical,77.0,5.0,67.0
+S1076,Female,Mechanical,65.0,3.0,54.0
+S1077,Male,Data Science,85.0,6.0,78.5
+S1078,Female,Computer Science,96.0,9.0,95.5
+S1079,Male,Mechanical,57.0,2.0,47.5
+S1080,Female,Electrical,84.0,6.0,75.5
+S1081,Male,Computer Science,87.5,6.5,80.5
+S1082,Female,Data Science,92.0,8.0,88.0
+S1083,Male,Electrical,73.5,4.0,62.5
+S1084,Female,Mechanical,69.5,4.0,61.0
+S1085,Male,Data Science,89.5,7.5,86.0
+S1086,Female,Computer Science,98.0,9.5,98.5
+S1087,Male,Mechanical,60.5,2.5,50.5
+S1088,Female,Electrical,80.0,5.0,70.5
+S1089,Male,Computer Science,86.5,6.5,79.5
+S1090,Female,Data Science,81.0,5.5,71.0
+S1091,Male,Electrical,68.0,3.5,57.0
+S1092,Female,Mechanical,83.5,6.0,74.5
+S1093,Male,Computer Science,90.0,7.5,85.0
+S1094,Female,Data Science,88.0,7.0,82.0
+S1095,Male,Electrical,61.5,2.5,48.5
+S1096,Female,Mechanical,77.5,4.5,68.5
+S1097,Male,Computer Science,92.5,8.5,90.5
+S1098,Female,Data Science,95.0,9.0,94.0
+S1099,Male,Electrical,74.5,4.5,64.5
+S1100,Female,Mechanical,66.5,3.0,56.5
+S1101,Male,Data Science,87.0,6.5,81.5
+S1102,Female,Computer Science,93.0,8.0,89.5
+S1103,Male,Mechanical,54.5,2.0,43.5
+S1104,Female,Electrical,81.0,5.0,71.5
+S1105,Male,Computer Science,89.0,7.0,84.0
+S1106,Female,Data Science,91.0,7.5,85.5
+S1107,Male,Electrical,69.5,3.5,58.0
+S1108,Female,Mechanical,84.5,6.5,76.0
+S1109,Male,Computer Science,95.0,9.0,93.5
+S1110,Female,Data Science,78.0,4.5,67.0
+S1111,Male,Electrical,66.0,3.0,54.5
+S1112,Female,Mechanical,82.5,5.5,73.0
+S1113,Male,Computer Science,88.0,7.0,82.5
+S1114,Female,Data Science,94.0,8.5,91.5
+S1115,Male,Electrical,72.5,4.0,62.0
+S1116,Female,Mechanical,70.5,4.0,61.5
+S1117,Male,Data Science,86.0,6.0,79.0
+S1118,Female,Computer Science,97.5,9.5,97.0
+S1119,Male,Mechanical,58.5,2.5,48.5
+S1120,Female,Electrical,83.0,5.5,74.0
+S1121,Male,Computer Science,86.0,6.0,78.0
+S1122,Female,Data Science,93.0,8.5,90.0
+S1123,Male,Electrical,75.5,4.5,64.0
+S1124,Female,Mechanical,62.0,2.5,51.0
+S1125,Male,Data Science,91.0,8.0,88.0
+S1126,Female,Computer Science,96.5,9.0,96.0
+S1127,Male,Mechanical,59.5,2.5,49.0
+S1128,Female,Electrical,80.5,5.0,71.0
+S1129,Male,Computer Science,87.0,6.5,80.0
+S1130,Female,Data Science,80.0,5.0,70.0
+S1131,Male,Electrical,67.5,3.5,56.5
+S1132,Female,Mechanical,84.0,6.0,75.0
+S1133,Male,Computer Science,91.5,8.0,87.5
+S1134,Female,Data Science,87.0,6.5,81.5
+S1135,Male,Electrical,63.0,3.0,50.0
+S1136,Female,Mechanical,78.5,5.0,69.5
+S1137,Male,Computer Science,90.0,7.5,85.5
+S1138,Female,Data Science,96.0,9.0,95.0
+S1139,Male,Electrical,73.0,4.0,63.0
+S1140,Female,Mechanical,68.0,3.5,58.5
+S1141,Male,Data Science,88.5,7.0,83.5
+S1142,Female,Computer Science,94.5,8.5,92.0
+S1143,Male,Mechanical,55.5,2.0,44.5
+S1144,Female,Electrical,82.0,5.5,72.5
+S1145,Male,Computer Science,85.5,6.0,77.0
+S1146,Female,Data Science,90.0,7.5,86.0
+S1147,Male,Electrical,71.5,4.0,60.0
+S1148,Female,Mechanical,83.0,6.0,74.0
+S1149,Male,Computer Science,93.5,8.5,91.5
+S1150,Female,Data Science,77.5,4.5,66.0
+S1105,Male,Computer Science,89.0,7.0,84.0
+S1151,Male,Electrical,64.5,3.0,53.0
+S1152,Female,Mechanical,81.5,5.0,72.0
+S1153,Male,Computer Science,92.0,8.0,88.0
+S1154,Female,Data Science,94.0,8.5,91.0
+S1155,Male,Electrical,76.5,5.0,66.5
+S1156,Female,Mechanical,64.0,2.5,53.0
+S1157,Male,Data Science,86.0,6.5,79.5
+S1158,Female,Computer Science,97.0,9.5,96.5
+S1159,Male,Mechanical,57.5,2.0,46.5
+S1160,Female,Electrical,85.0,6.0,76.5
+S1161,Male,Computer Science,88.0,7.0,81.0
+S1162,Female,Data Science,92.5,8.0,88.5
+S1163,Male,Electrical,74.0,4.0,63.0
+S1164,Female,Mechanical,70.0,4.0,60.5
+S1165,Male,Data Science,90.0,7.5,85.5
+S1166,Female,Computer Science,98.5,10.0,99.5
+S1167,Male,Mechanical,61.5,3.0,51.5
+S1168,Female,Electrical,79.5,4.5,69.5
+S1169,Male,Computer Science,87.0,6.5,79.0
+S1170,Female,Data Science,82.0,5.5,72.5
+S1171,Male,Electrical,68.5,3.5,57.5
+S1172,Female,Mechanical,83.0,6.0,73.5
+S1173,Male,Computer Science,89.5,7.5,84.5
+S1174,Female,Data Science,89.0,7.0,83.0
+S1175,Male,Electrical,62.5,2.5,49.0
+S1176,Female,Mechanical,76.0,4.5,67.0
+S1177,Male,Computer Science,93.0,8.5,91.0
+S1178,Female,Data Science,95.5,9.0,94.5
+S1179,Male,Electrical,75.0,4.5,65.0
+S1180,Female,Mechanical,67.0,3.0,55.5
+S1181,Male,Data Science,87.5,6.5,82.0
+S1182,Female,Computer Science,94.0,8.5,90.5
+S1183,Male,Mechanical,53.0,1.5,41.0
+S1184,Female,Electrical,81.5,5.0,72.0
+S1185,Male,Computer Science,90.5,7.5,86.0
+S1186,Female,Data Science,92.0,8.0,87.5
+S1187,Male,Electrical,70.5,3.5,59.0
+S1188,Female,Mechanical,85.0,6.5,77.0
+S1189,Male,Computer Science,96.0,9.5,95.0
+S1190,Female,Data Science,79.5,5.0,68.5
+S1191,Male,Electrical,,3.0,53.5
+S1192,Female,Mechanical,80.5,,71.0
+S1193,Male,Computer Science,87.5,6.5,
+S1194,Female,Data Science,93.5,8.0,89.0
+S1195,Male,Electrical,71.0,-4.0,61.0
+S1196,Female,Mechanical,69.0,3.5,-55.0
+S1197,Male,Data Science,85.0,6.0,77.5
+S1198,Female,Computer Science,96.5,9.0,96.0
+S1199,Male,Mechanical,58.0,2.5,48.0
+S1200,Female,Electrical,82.5,5.5,73.0
